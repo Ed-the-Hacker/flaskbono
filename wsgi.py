@@ -1,3 +1,3 @@
-from flask_qa import create_app
+from FlaskVideo import create_app
 
 app = create_app()
