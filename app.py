@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 app=Flask(__name__)
 app.config['SECRET_KEY']='Esto es un secreto'
-app.config['SQLALCHEMY_DATABASE_URI']='sqlite:///database/video.db'
+app.config['DATABASE_URL']
 
 db=SQLAlchemy(app)
 
