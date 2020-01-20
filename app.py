@@ -3,8 +3,8 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app=Flask(__name__)
-app.config['SECRET_KEY']='Esto es un secreto'
-app.config['DATABASE_URL']
+# app.config['SECRET_KEY']='Esto es un secreto'
+# app.config['DATABASE_URL']
 
 db=SQLAlchemy(app)
 
